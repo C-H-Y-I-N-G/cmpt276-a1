@@ -1,0 +1,38 @@
+h1{
+	font-family: sans-serif;
+}
+
+table{
+	border: 2px solid ;
+	border-color: #DBE9EE; 
+	background-color: #EAF1F3;
+	float: left;
+}
+
+table.Bound{
+	width: 20%;
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+}
+
+table.Histogram{
+	width:15%;
+}
+
+tr.narrow{
+	height: 25px;
+	text-indent: 25px;
+}
+
+th{
+	height: 50px;
+	text-align: left;
+	font-size: 14pt;
+	color: #CE2B26;
+	text-indent: 5px;
+}
+
+tr{
+	height: 40px;
+	text-indent: 25px;
+}
