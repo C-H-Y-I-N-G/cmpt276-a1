@@ -8,7 +8,7 @@
 <body>
 	<h1>Histogram Generator</h1>
 	<br>
-	<form id = "gradeForm">
+	<form id = "gradeForm" method="POST" onsubmit="setBoundaries()">
 	<table class="Bound">
 	 	<tr><th colspan="3">Lower bounds</th></tr>
 	  	<tr><td>Max</td><td><input name="MAX" type="number" required></td></tr>
@@ -23,7 +23,7 @@
 	  	<tr><td>C-</td><td><input name="CM" type="number" required></td></tr>
 	  	<tr><td>D</td><td><input name="D" type="number" required></td></tr>
 	  	<tr><td>F</td><td><input name="F" type="number" required></td></tr>
-	  	<tr style="height:10px;"><td></td><td></td><td><button onclick="setBoundaries()">Submit</button></td></tr>
+	  	<tr style="height:10px;"><td></td><td></td><td><input type="submit" value="Submit"></td></tr>
 	</table>
 	</form> 
 	<table class="Histogram">
