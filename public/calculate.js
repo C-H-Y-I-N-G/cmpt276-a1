@@ -19,10 +19,12 @@ function setBoundaries(event)
 	var d = document.forms["gradeForm"]["D"].value;
 	var f = document.forms["gradeForm"]["F"].value;
 
-	var boundsArr = [max,ap,a,am,bp,b,bm,cp,c,cm,d,f];
+	var arr = [Number(max),Number(ap),Number(a),Number(am),Number(bp),Number(b),Number(bm),Number(cp),Number(c),Number(cm),
+	Number(d),Number(f)];
+	
 	for (var i=0; i<11; i++)
 	{
-		if (boundsArr[i+1] >= boundsArr[i])
+		if (arr[i+1] >= arr[i])
 		{
 			alert("input overlapped!");
 			return false;
