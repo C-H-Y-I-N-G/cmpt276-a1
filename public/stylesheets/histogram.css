@@ -10,10 +10,15 @@ table{
 	font-weight: bold;
 }
 
-table.Bound{
+div.Bound{
 	width: 20%;
 	margin-right: 1.5%;
 	margin-left: 1.5%;
+	border: 2px solid ;
+	border-color: #DBE9EE; 
+	background-color: #EAF1F3;
+	float: left;
+	font-weight: bold;
 }
 
 table.Histogram{
@@ -25,6 +30,15 @@ tr.narrow{
 	text-indent: 25px;
 }
 
+/*p{
+	height: 50px;
+	text-align: left;
+	font-size: 14pt;
+	color: #CE2B26;
+	text-indent: 5px;
+}
+*/
+
 th{
 	height: 50px;
 	text-align: left;
@@ -32,13 +46,44 @@ th{
 	color: #CE2B26;
 	text-indent: 5px;
 }
-
-tr{
-	height: 40px;
+p{
+	text-align: left;
+	font-size: 14pt;
+	color: #CE2B26;
+	text-indent: 5px;
+}
+label{
 	text-indent: 25px;
+	position: absolute;
+	line-height: 1.5;
+	margin-left: 1px;
 }
 
+/*
+{
+	margin-left: 1.5%;
+	margin-left: 1.5%
+}
+
+
+/*label{	
+	
+	display: inline-block;
+	text-align: right;
+	float: left;
+	
+}
+*/
+
 input[type=number]{
-	width: 80px;
-	text-indent: 5px;
+	width: 60px;
+/*	display: inline-block;
+	text-align: left;
+	float: center;*/
+	clear: both;
+	margin-left: 45%;
+}
+
+input[type=submit]{
+	float:right;
 }

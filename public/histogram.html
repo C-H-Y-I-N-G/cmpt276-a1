@@ -8,24 +8,84 @@
 <body>
 	<h1>Histogram Generator</h1>
 	<br>
-	<form id = "gradeForm" method="POST" onsubmit="setBoundaries()">
-	<table class="Bound">
+	<div class="Bound">
+		<form name="gradeForm" onsubmit="return setBoundaries()">
+		<p>Lower bounds</p>
+		<label>Max</label>
+		<input name="MAX" type="number" required><br><br>
+	  	
+	  	<label>A+</label>
+	  	<input name="AP" type="number" required><br><br>
+	  	
+	  	<label>A</label>
+	  	<input name="A" type="number" required><br><br>
+	  	
+	  	<label>A-</label>
+	  	<input name="AM" type="number" required><br><br>
+	  	
+	  	<label>B+</label>
+	  	<input name="BP" type="number" required><br><br>
+	  	
+	  	<label>B</label>
+	  	<input name="B" type="number" required><br><br>
+	  	
+	  	<label>B-</label>
+	  	<input name="BM" type="number" required><br><br>
+	  	
+	  	<label>C+</label>
+	  	<input name="CP" type="number" required><br><br>
+	  	
+	  	<label>C</label>
+	  	<input name="C" type="number" required><br><br>
+	  	
+	  	<label>C-</label>
+	  	<input name="CM" type="number" required><br><br>
+	  	
+	  	<label>D</label>
+	  	<input name="D" type="number" required><br><br>
+	  	
+	  	<label>F</label>
+	  	<input name="F" type="number" required><br><br>
+	  	
+	  	<input type="submit" value="Submit"><br><br>
+	  	</form>
+	</div>
+	<!-- <table class="Bound">
 	 	<tr><th colspan="3">Lower bounds</th></tr>
-	  	<tr><td>Max</td><td><input name="MAX" type="number" required></td></tr>
-	  	<tr><td>A+</td><td><input name="AP" type="number" required></td></tr>
-	  	<tr><td>A</td><td><input name="A" type="number" required></td></tr>
-	  	<tr><td>A-</td><td><input name="AM" type="number" required></td></tr>
-	  	<tr><td>B+</td><td><input name="BP" type="number" required></td></tr>
-	  	<tr><td>B</td><td><input name="B" type="number" required></td></tr>
-	  	<tr><td>B-</td><td><input name="BM" type="number" required></td></tr>
-	  	<tr><td>C+</td><td><input name="CP" type="number" required></td></tr>
-	  	<tr><td>C</td><td><input name="C" type="number" required></td></tr>
-	  	<tr><td>C-</td><td><input name="CM" type="number" required></td></tr>
-	  	<tr><td>D</td><td><input name="D" type="number" required></td></tr>
-	  	<tr><td>F</td><td><input name="F" type="number" required></td></tr>
-	  	<tr style="height:10px;"><td></td><td></td><td><input type="submit" value="Submit"></td></tr>
+	  	<tr><td>Max</td></tr>
+	  	<tr><td>A+</td></tr>
+	  	<tr><td>A</td></tr>
+	  	<tr><td>A-</td></tr>
+	  	<tr><td>B+</td></tr>
+	  	<tr><td>B</td></tr>
+	  	<tr><td>B-</td></tr>
+	  	<tr><td>C+</td></tr>
+	  	<tr><td>C</td></tr>
+	  	<tr><td>C-</td></tr>
+	  	<tr><td>D</td><</tr>
+	  	<tr><td>F</td></tr>
+	  	<tr style="height:10px"></tr>
+	</table>
+	<form id = "gradeForm" method="POST" onsubmit="setBoundaries()">
+	<table class = "input">
+		<tr><th></th></tr>
+		<tr><td><input name="MAX" type="number" required></td></tr>
+		<tr><td><input name="AP" type="number" required></td></tr>
+		<tr><td><input name="A" type="number" required></td></tr>
+		<tr><td><input name="AM" type="number" required></td></tr>
+		<tr><td><input name="BP" type="number" required></td></tr>
+		<tr><td><input name="B" type="number" required></td></tr>
+		<tr><td><input name="BM" type="number" required></td></tr>
+		<tr><td><input name="CP" type="number" required></td></tr>
+		<tr><td><input name="C" type="number" required></td></tr>
+		<tr><td><input name="CM" type="number" required></td></tr>
+		<tr><td><input name="D" type="number" required></td></tr>
+		<tr><td><input name="F" type="number" required></td></tr>
+		<tr style="height:10px"><input type="submit" value="Submit"></tr>
 	</table>
 	</form> 
+-->
+
 	<table class="Histogram">
 	 	<tr class="narrow"><th colspan="3">Histogram</th></tr>
 	  	<tr class="narrow"><td>A+</td><td id="grade1"></td></tr>
