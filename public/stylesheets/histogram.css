@@ -30,14 +30,6 @@ tr.narrow{
 	text-indent: 25px;
 }
 
-/*p{
-	height: 50px;
-	text-align: left;
-	font-size: 14pt;
-	color: #CE2B26;
-	text-indent: 5px;
-}
-*/
 
 th{
 	height: 50px;
@@ -58,22 +50,6 @@ label{
 	line-height: 1.5;
 	margin-left: 1px;
 }
-
-/*
-{
-	margin-left: 1.5%;
-	margin-left: 1.5%
-}
-
-
-/*label{	
-	
-	display: inline-block;
-	text-align: right;
-	float: left;
-	
-}
-*/
 
 input[type=number]{
 	width: 60px;
