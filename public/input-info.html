@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Table</title>
+</head>
+<style>
+	input{
+		margin-left: 20px;
+	}
+</style>
+<body>
+	<h2>Input Student Information</h2>
+	<br>
+	<form name="table" action="enter" method="post">
+		<label>Student ID</label>
+		<input type="text" name="id" id="id" value="" required > <br><br>
+		<label>Name</label>
+		<input type="text" name="sname" id="sname" value="" required > <br><br>
+		<label>Weight</label>
+		<input type="number" name="sweight" id="sweight" required> <br><br>
+		<label>Height</label>
+		<input type="number" name="sheight" id="sheight" required> <br><br>
+		<label>Hair Color</label>
+		<input type="text" name="scolor" id="scolor" value="" required> <br><br>
+		<label>GPA</label>
+		<input type="text" name="gpa" id="gpa" value="" required> <br><br>
+		<button>Submit</button>
+	</form>
+	<br>
+	<h2>Change Student Information</h2>
+	<br>
+	<form name="change1" action="changeN" method="post">
+		<label>Student ID</label>
+		<input type="text" name="idName" id="idName" value="" required > <br><br>
+		<label>Name</label>
+		<input type="text" name="changeName" id="changeName" value="" required> <br><br>
+		<button>Change Name</button>
+	</form><br>
+	<form name="change2" action="changeW" method="post">
+		<label>Student ID</label>
+		<input type="text" name="idWeight" id="idWeight" value="" required > <br><br>
+		<label>Weight</label>
+		<input type="number" name="changeWeight" id="changeWeight" required> <br><br>
+		<button>Change Weight</button>
+	</form><br>
+	<form name="change3" action="changeH" method="post">
+		<label>Student ID</label>
+		<input type="text" name="idHeight" id="idHeight" value="" required > <br><br>
+		<label>Height</label>
+		<input type="number" name="changeHeight" id="changeHeight" required> <br><br>
+		<button>Change Height</button>
+	</form><br>
+	<form name="change4" action="changeC" method="post">
+		<label>Student ID</label>
+		<input type="text" name="idColor" id="idColor" value="" required > <br><br>
+		<label>Hair Color</label>
+		<input type="text" name="changeColor" id="changeColor" value="" required> <br><br>
+		<button>Change Hair Color</button>
+	</form><br>
+	<form name="change5" action="changeG" method="post">
+		<label>Student ID</label>
+		<input type="text" name="idGPA" id="idGPA" value="" required > <br><br>
+		<label>GPA</label>
+		<input type="text" name="changeGPA" id="changeGPA" value="" required> <br><br>
+		<button>Change GPA</button>
+	</form><br>
+	<h2>Delete Student</h2>
+	<form name="delete" action="deleteS" method="post">
+		<label>Student ID</label>
+		<input type="text" name="deleteStudent" id="deleteStudnet" required=""> <button>Delete</button> </form><br><br>
+
+</body>
+</html>
